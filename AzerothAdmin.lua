@@ -111,25 +111,25 @@ AzerothAdmin:RegisterDefaults("account",
       showminimenu = true,
       transparency = {
         buttons = 1.0,
-        frames = 0.7,
-        backgrounds = 0.5
+        frames = 0.90,
+        backgrounds = 0.65
       },
       color = {
         buffer = {},
         buttons = {
-          r = 33,
-          g = 164,
-          b = 210
+          r = 0.09019607843137255, 
+          g = 0.09019607843137255, 
+          b = 0.09019607843137255
         },
         frames = {
-          r = 102,
-          g = 102,
-          b = 102
-        },
-        backgrounds = {
           r = 0,
           g = 0,
           b = 0
+        },
+        backgrounds = {
+          r = 0.4980392156862745,
+          g = 0,
+          b = 0.1098039215686275
         },
         linkifier = {
           r = 0.8705882352941177,
