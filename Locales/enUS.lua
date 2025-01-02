@@ -111,7 +111,7 @@ function Return_enUS()
     ["selectionerror4"]               = "Please select only a NPC!",
     ["numbererror"]                   = "Value must be a number!",
     ["searchResults"]                 = "|cFF00FF00Search-Results:|r ",
-    ["ma_parameters"]                 = "Parameter(s):", --Used on multiple tabs
+    ["ma_parameters"]                 = "Value(s):", --Used on multiple tabs
 
 
 
@@ -184,16 +184,16 @@ function Return_enUS()
     ["tt_acctpasswdbutton"]           = "Sets $account $password [[Parameters: $accountname $password $password]]",
   --[[Control Labels]]
     ["ma_OffButton"]                  = "Off",
-    ["ma_displaylevelbutton"]         = "Display Account Level",
+    ["ma_displaylevelbutton"]         = "Account Level",
     ["ma_GMOnButton"]                 = "GM-mode on",
     ["ma_FlyOnButton"]                = "Fly-mode on",
-    ["ma_HoverOnButton"]              = "Hover-mode on",
+    ["ma_HoverOnButton"]              = "Hover-mode on",  --TODO: '.hover' does not exist 4.3.4 (Remove/Change command)
     ["ma_WhisperOnButton"]            = "Whisper on",
     ["ma_InvisOnButton"]              = "Invisibility on",
-    ["ma_TaxiOnButton"]               = "Cheat Taxi on",
+    ["ma_TaxiOnButton"]               = "Taxicheat on",    
     ["ma_ShowMapsButton"]             = "Show Maps",
     ["ma_HideMapsButton"]             = "Hide Maps",
-    ["ma_instakill"]                  = "Insta-kill enemy creatures",
+    ["ma_instakill"]                  = "Kill 1-Click",
     ["ma_ScreenshotButton"]           = "Screenshot",
     ["ma_BankButton"]                 = "Bank",
     ["ma_DismountButton"]             = "Dismount",
