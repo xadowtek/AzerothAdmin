@@ -88,7 +88,7 @@ function AzerothAdmin:CreateSmallPopupFrames()
       offX = -10,
       offY = -10
     },
-    text = Locale["ma_CloseWindow"] --"X"
+    text = "X"
   })
 
   FrameLib:BuildFontString({

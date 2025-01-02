@@ -96,7 +96,6 @@ function Return_enUS()
     ["info_online"]                   = "|cFF00FF00Players Online:|r ",
     ["info_maxonline"]                = "|cFF00FF00Maximum Online:|r ",
     ["info_uptime"]                   = "|cFF00FF00Uptime:|r ",
-    ["ma_CloseWindow"]                = "X",
     ["tt_CloseWindow"]                = "Close Window",
   --[[Other]]
     ["slashcmds"]                     = { "/AzerothAdmin", "/aa" },
