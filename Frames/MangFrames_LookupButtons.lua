@@ -212,24 +212,4 @@ function AzerothAdmin:CreateLookupButtons()
     },
     text = Locale["ma_Mail"]
   })
-
-  FrameLib:BuildButton({
-    name = "ma_closebutton",
-    group = "bg",
-    parent = ma_rightframe,
-    texture = {
-      name = "ma_languagebutton_texture",
-      color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
-    },
-    size = {
-      width = 10,
-      height = 10
-    },
-    setpoint = {
-      pos = "BOTTOMRIGHT",
-      offX = -10,
-      offY = 10
-    },
-    text = "X"
-  })
 end

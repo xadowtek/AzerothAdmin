@@ -296,29 +296,24 @@ function AzerothAdmin:CreateTabs()
     text = Locale["tabmenu_who"]
   })
 
---  FrameLib:BuildButton({
---    name = "ma_tabbutton_changelog",
---    group = "tabbuttons",
---    parent = ma_topframe,
---    texture = {
---      name = "ma_tabbutton_who_texture",
---      color = {color.bg.r, color.bg.g, color.bg.b, transparency.bg},
---      gradient = {
---        orientation = "vertical",
---        min = {102,102,102,0},
---        max = {color.bg.r, color.bg.g, color.bg.b, transparency.bg}
---      }
---    },
---    size = {
---      width = 55,
---      height = 20
---    },
---    setpoint = {
---      pos = "TOPLEFT",
---      relTo = "ma_tabbutton_who",
---      relPos = "TOPRIGHT",
---      offX = 2
---    },
---    text = Locale["tabmenu_changelog"]
---  })
+  FrameLib:BuildButton({
+    name = "ma_closebutton",
+    group = "bg",
+    parent = ma_topframe,
+    texture = {
+      name = "ma_tabbutton_close_texture",
+      color = {color.bg.r, color.bg.g, color.bg.b, transparency.bg},
+    },
+    size = {
+      width = 30,
+      height = 20
+    },
+    setpoint = {
+      pos = "TOPLEFT",
+      relTo = "ma_tabbutton_who",
+      relPos = "TOPRIGHT",
+      offX = 2
+    },
+    text = "X"
+  })
 end
