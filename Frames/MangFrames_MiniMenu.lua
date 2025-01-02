@@ -42,7 +42,7 @@ function AzerothAdmin:CreateMiniMenu()
     },
     draggable = true,
     size = {
-      width = 28,
+      width = 52,
       height = 244
     },
     setpoint = {
@@ -59,7 +59,7 @@ function AzerothAdmin:CreateMiniMenu()
       color = {color.frm.r, color.frm.g, color.frm.b, transparency.frm}
     },
     size = {
-      width = 24,
+      width = 48,
       height = 240
     },
     setpoint = {
@@ -97,7 +97,7 @@ function AzerothAdmin:CreateMiniMenu()
       color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
     },
     size = {
-      width = 20,
+      width = 44,
       height = 20
     },
     setpoint = {
@@ -117,7 +117,7 @@ function AzerothAdmin:CreateMiniMenu()
       color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
     },
     size = {
-      width = 20,
+      width = 44,
       height = 20
     },
     setpoint = {
@@ -127,7 +127,7 @@ function AzerothAdmin:CreateMiniMenu()
       offX = 0,
       offY = -2
     },
-    text = "Cr"
+    text = "Player"
   })
 
      FrameLib:BuildButton({
@@ -139,7 +139,7 @@ function AzerothAdmin:CreateMiniMenu()
       color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
     },
     size = {
-      width = 20,
+      width = 44,
       height = 20
     },
     setpoint = {
@@ -149,7 +149,7 @@ function AzerothAdmin:CreateMiniMenu()
       offX = 0,
       offY = -2
     },
-    text = "Np"
+    text = "NPC"
   })
 
   FrameLib:BuildButton({
@@ -161,7 +161,7 @@ function AzerothAdmin:CreateMiniMenu()
       color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
     },
     size = {
-      width = 20,
+      width = 44,
       height = 20
     },
     setpoint = {
@@ -171,7 +171,7 @@ function AzerothAdmin:CreateMiniMenu()
       offX = 0,
       offY = -2
     },
-    text = "GO"
+    text = "Items"
   })
 
 
@@ -184,7 +184,7 @@ function AzerothAdmin:CreateMiniMenu()
       color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
     },
     size = {
-      width = 20,
+      width = 44,
       height = 20
     },
     setpoint = {
@@ -194,7 +194,7 @@ function AzerothAdmin:CreateMiniMenu()
       offX = 0,
       offY = -2
     },
-    text = "Te"
+    text = "Tele"
   })
 
   FrameLib:BuildButton({
@@ -206,7 +206,7 @@ function AzerothAdmin:CreateMiniMenu()
       color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
     },
     size = {
-      width = 20,
+      width = 44,
       height = 20
     },
     setpoint = {
@@ -216,7 +216,7 @@ function AzerothAdmin:CreateMiniMenu()
       offX = 0,
       offY = -2
     },
-    text = "Ti"
+    text = "Ticket"
   })
 
   FrameLib:BuildButton({
@@ -228,7 +228,7 @@ function AzerothAdmin:CreateMiniMenu()
       color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
     },
     size = {
-      width = 20,
+      width = 44,
       height = 20
     },
     setpoint = {
@@ -238,7 +238,7 @@ function AzerothAdmin:CreateMiniMenu()
       offX = 0,
       offY = -2
     },
-    text = "Mi"
+    text = "Option"
   })
 
   FrameLib:BuildButton({
@@ -250,7 +250,7 @@ function AzerothAdmin:CreateMiniMenu()
       color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
     },
     size = {
-      width = 20,
+      width = 44,
       height = 20
     },
     setpoint = {
@@ -260,7 +260,7 @@ function AzerothAdmin:CreateMiniMenu()
       offX = 0,
       offY = -2
     },
-    text = "Se"
+    text = "Server"
   })
 
   FrameLib:BuildButton({
@@ -272,7 +272,7 @@ function AzerothAdmin:CreateMiniMenu()
       color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
     },
     size = {
-      width = 20,
+      width = 44,
       height = 20
     },
     setpoint = {
@@ -282,7 +282,7 @@ function AzerothAdmin:CreateMiniMenu()
       offX = 0,
       offY = -2
     },
-    text = "Lo"
+    text = "Log"
   })
 
     FrameLib:BuildButton({
@@ -294,7 +294,7 @@ function AzerothAdmin:CreateMiniMenu()
       color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
     },
     size = {
-      width = 20,
+      width = 44,
       height = 20
     },
     setpoint = {
@@ -304,7 +304,7 @@ function AzerothAdmin:CreateMiniMenu()
       offX = 0,
       offY = -2
     },
-    text = "Wh"
+    text = "Online"
   })
 
   FrameLib:BuildButton({ --This button shows up in the center of the screen when you die!
