@@ -152,7 +152,7 @@ function AzerothAdmin:CreateStartFrames()
       file = ROOT_PATH.."Textures\\logo.tga"
     },
     size = {
-      width = 500, --Original 512
+      width = 512,
       height = 64
     },
     setpoint = {
