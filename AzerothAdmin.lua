@@ -272,10 +272,6 @@ function AzerothAdmin:OnEnable()
   self:PLAYER_TARGET_CHANGED() --init
   --ma_mm_revivebutton:Show()
 
-  -- Hide Who buttons for FIX #11. Admin level 4 not possible ingame?
-  ma_tabbutton_who:Hide()
-  ma_mm_whobutton:Hide()
-
   -- Dissable unusable options in GM(main) tab WIP: FIX #10
   ma_hoveronbutton:Disable()
   ma_hoveroffbutton:Disable()
