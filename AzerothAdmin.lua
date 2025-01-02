@@ -156,7 +156,7 @@ Locale:RegisterTranslations("enUS", function() return Return_enUS() end)
 --Locale:RegisterTranslations("roRO", function() return Return_roRO() end)
 --Locale:RegisterTranslations("csCZ", function() return Return_csCZ() end)
 --Locale:RegisterTranslations("huHU", function() return Return_huHU() end)
---Locale:RegisterTranslations("esES", function() return Return_esES() end)
+Locale:RegisterTranslations("esES", function() return Return_esES() end)
 --Locale:RegisterTranslations("zhCN", function() return Return_zhCN() end)
 --Locale:RegisterTranslations("ptPT", function() return Return_ptPT() end)
 --Locale:RegisterTranslations("ruRU", function() return Return_ruRU() end)
@@ -176,7 +176,7 @@ Strings:RegisterTranslations("enUS", function() return ReturnStrings_enUS() end)
 --Strings:RegisterTranslations("roRO", function() return ReturnStrings_roRO() end)
 --Strings:RegisterTranslations("csCZ", function() return ReturnStrings_csCZ() end)
 --Strings:RegisterTranslations("huHU", function() return ReturnStrings_huHU() end)
---Strings:RegisterTranslations("esES", function() return ReturnStrings_esES() end)
+Strings:RegisterTranslations("esES", function() return ReturnStrings_esES() end)
 --Strings:RegisterTranslations("zhCN", function() return ReturnStrings_zhCN() end)
 --Strings:RegisterTranslations("ptPT", function() return ReturnStrings_ptPT() end)
 --Strings:RegisterTranslations("ruRU", function() return ReturnStrings_ruRU() end)
@@ -1141,7 +1141,7 @@ function AzerothAdmin:SetLanguage()
     if self.db.account.localesearchstring then
       Strings:SetLocale(self.db.account.language)
     else
-      Strings:SetLocale("enUS")
+      Strings:SetLocale("esES")
     end
   else
     self.db.account.language = Locale:GetLocale()
@@ -1919,7 +1919,7 @@ function AzerothAdmin:InitDropDowns()
 --      {"Deutsch","deDE"},
 --      {"Dutch","nlNL"},
       {"English","enUS"},
---      {"Spanish","esES"},
+      {"Spanish","esES"},
 --      {"Finnish","fiFI"},
 --      {"Français","frFR"},
 --      {"Magyar","huHU"},
