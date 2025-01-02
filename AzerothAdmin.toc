@@ -28,6 +28,7 @@ Libraries\DewDrop-2.0\DewDrop-2.0.lua
 Libraries\FrameLib-1.0\FrameLib-1.0.lua
 Libraries\Graph-1.0\Graph-1.0.lua
 Locales\enUS.lua
+Locales\esES.lua
 Locales\strings.lua
 Models.lua
 Commands\Commands_Main.lua
