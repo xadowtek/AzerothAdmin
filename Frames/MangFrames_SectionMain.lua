@@ -716,7 +716,7 @@ function AzerothAdmin:CreateMainSection()
     text = Locale["ma_parameters"],
     setpoint = {
       pos = "TOPLEFT",
-      offX = 327,
+      offX = 334,
       offY = -167
     }
   })

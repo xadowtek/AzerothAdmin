@@ -1422,7 +1422,7 @@ function AzerothAdmin:CreateCharSection()
     text = Locale["ma_parameters"],
     setpoint = {
       pos = "BOTTOMLEFT",
-      offX = 218, --charColTwo
+      offX = 222, --charColTwo
       offY = 8
     }
   })
