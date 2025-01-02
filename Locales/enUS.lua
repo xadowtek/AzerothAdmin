@@ -240,7 +240,7 @@ function Return_enUS()
 
 --[[Char Tab]]
   --[[Name]]
-    ["tabmenu_Char"]                  = "CHAR",
+    ["tabmenu_Char"]                  = "Player",
     ["tt_CharButton"]                 = "Toggle a window with character-specific actions.",
   --[[Tooltips]]
     ["tt_RotateLeft"]                 = "Rotate left.",
@@ -514,7 +514,7 @@ function Return_enUS()
 
 --[[GObjects Tab]]
   --[[Name]]
-    ["tabmenu_GO"]                    = "GOB",
+    ["tabmenu_GO"]                    = "Items",
     ["tt_GOButton"]                   = "Toggle a window with GObject functions.",
   --[[Tooltips]]
     ["tt_ObjGo"]                      = "Go to the selected object",
@@ -546,7 +546,7 @@ function Return_enUS()
 
 --[[Tele Tab]]
   --[[Name]]
-    ["tabmenu_Tele"]                  = "TELE",
+    ["tabmenu_Tele"]                  = "Teleport",
     ["tt_TeleButton"]                 = "Toggle a window with teleport-functions.",
   --[[Tooltips]]
   --[[Control Labels]]
@@ -559,7 +559,7 @@ function Return_enUS()
 
 --[[Tickets Tab]]
   --[[Name]]
-    ["tabmenu_ticket"]                = "TICKETS",
+    ["tabmenu_ticket"]                = "Tickets",
     ["tt_TicketButton"]               = "Toggle a window which shows all tickets and lets you administrate them.",
   --[[Tooltips]]
     ["tt_TicketOn"]                   = "Announce new tickets.",
@@ -602,7 +602,7 @@ function Return_enUS()
 
 --[[Misc Tab]]
   --[[Name]]
-    ["tabmenu_Misc"]                  = "MISC",
+    ["tabmenu_Misc"]                  = "Options",
     ["tt_MiscButton"]                 = "Toggle a window with miscellaneous actions.",
   --[[Tooltips]]
     ["tt_FrmTrSlider"]                = "Change frame transparency",
@@ -623,7 +623,7 @@ function Return_enUS()
 
 
 --[[Server Tab]]
-    ["tabmenu_server"]                = "SERVER",
+    ["tabmenu_server"]                = "Server",
     ["tt_ServerButton"]               = "Show several server informations and do actions concerning the server.",
   --[[Tooltips]]
     ["tt_AnnounceButton"]             = "Announce a system message.",
@@ -636,7 +636,7 @@ function Return_enUS()
 
 
 --[[Log Tab]]
-    ["tabmenu_log"]                   = "LOG",
+    ["tabmenu_log"]                   = "Logs",
     ["tt_LogButton"]                  = "Show the log of all actions done with AzerothAdmin.",
   --[[Tooltips]]
   --[[Control Labels]]
@@ -645,7 +645,7 @@ function Return_enUS()
 
 
 --[[Who Tab]]
-    ["tabmenu_who"]                   = "WHO",
+    ["tabmenu_who"]                   = "Online",
     ["tt_whotabmenubutton"]           = "Toggle a window which allows control of Who commands.",
   --[[Tooltips]]
     ["tt_who_customize"]              = "Flag character for customization at next login.",
